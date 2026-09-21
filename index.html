@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSIT 1st Semester</title>
+    <style>
+        body {
+            /* Replace 'pokemon.png' with your exact uploaded image filename */
+            background-image: url('Venasaur.jpeg');
+            
+            /* Tiles the image across the page */
+            background-repeat: repeat; 
+            
+            /* Sets the width of each tiled card (adjust 180px bigger or smaller to your liking) */
+            background-size: 180px auto; 
+            
+            /* Dark overlay background color */
+            background-color: #121212; 
+            
+            /* White text so it stays readable over the pattern */
+            color: #ffffff; 
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container box to make your text easy to read over tiled cards */
+        .content {
+            background-color: rgba(0, 0, 0, 0.75);
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>My new website is live!</p>
+    <div class="content">
+        <h1>Welcome to My CSIT 1st Semester Projects</h1>
+        <p>This page features a tiled Pokémon card background pattern!</p>
+    </div>
 </body>
 </html>
